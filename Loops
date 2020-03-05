@@ -1,0 +1,16 @@
+
+import math
+import os
+import random
+import re
+import sys
+
+
+
+n = int(input())
+i = range(1,11)
+j = 1
+while j in i:
+    prod = n*j
+    print( n, 'x',j,'=', prod)
+    j = j + 1   
